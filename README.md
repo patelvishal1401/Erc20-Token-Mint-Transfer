@@ -7,7 +7,7 @@
 
 1. npm install truffle
 
-2. Setup .env file acordingly to your settings
+2. Update .env file according to your settings
 
 3. Compile and Deploy Contract
 
@@ -19,9 +19,9 @@
 
    truffle compile
 
-   truffle migrate --network rinkeby (change network accordingly like matic, matictest)
+   truffle migrate --network rinkeby (change network : matic, matictest)
 
 4. Trasfer token ( set receivers account in scripts/transfer-token.js )
 
-   truffle exec scripts/transfer-token.js --network rinkeby (change network accordingly like matic, matictest)
+   truffle exec scripts/transfer-token.js --network rinkeby (change network : like matic, matictest)
 
