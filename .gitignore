@@ -6,3 +6,4 @@ artifacts
 .env
 
 src/abis
+*.DS_Store
